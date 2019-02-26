@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    background: #cc0042;
+    padding: 20px;
+    color: white;
+    /* flex-basis: 200px;
+    flex-grow: 1; */
+    flex: 1 1 200px; 
+    font-family: Helvetica;
+    transition: background .2s ease;
+    
+}
+
+.middle {
+    background: #b20039;
+}
+
+.box:hover {
+    background : #ff0052;
+}
+
+h3 {
+    font-size: 20px;
+}
